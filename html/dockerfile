@@ -1,0 +1,6 @@
+# Use an official lightweight web server
+FROM nginx:alpine
+# Copy your HTML file into the web server directory
+COPY index.html .
+# Expose port 80
+EXPOSE 80
