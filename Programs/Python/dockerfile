@@ -1,0 +1,5 @@
+FROM python:latest
+WORKDIR / app
+COPY demo.py .
+RUN pip install Flask
+CMD ["python","demo.py"]
